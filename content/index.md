@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Nygård Tech Blog
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is where I will share interesting insights and experiences from my journey working with technology, with a special focus on cloud computing. Stay tuned for tips, tutorials, and deep dives into the latest tech trends.
