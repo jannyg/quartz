@@ -1,8 +1,8 @@
 ---
-title: Example Title
+title: Test article
 draft: false
 tags:
-  - example-tag
+  - aws
 ---
 
 The rest of your content lives here. You can use **Markdown** here :)
