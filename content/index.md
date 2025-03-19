@@ -26,14 +26,14 @@ This is where I will share interesting insights and experiences from my journey 
 These are some of the most relevant topics I write about. Check out the topics you find most interesting:
 
 - #technology
-	- Start with [[technology]], or [[technology2|something about technology]]
+  - Start with [[technology]], or [[technology2|something about technology]]
 - #cloud
-	- Start with [[cloud|what i know about cloud]], or [[cloud2|cloud two]]
+  - Start with [[cloud|what i know about cloud]], or [[cloud2|cloud two]]
 - #coding
-	- Start with [[coding]], or [[coding2|coding to]]
+  - Start with [[coding]], or [[coding2|coding to]]
 - #aws
-	- Start with [[article1|article one]], or see some of my other notes about #aws
+  - Start with [[article1|article one]], or see some of my other notes about #aws
 - #english
-    - My articles in #English
+  - My articles in #English
 - #norsk
-    - Mine artikler på #Norsk
+  - Mine artikler på #Norsk

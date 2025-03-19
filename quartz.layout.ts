@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jannyg/quartz",
-      "LinkedIn": "https://www.linkedin.com/in/jan03/",
+      LinkedIn: "https://www.linkedin.com/in/jan03/",
     },
   }),
 }
@@ -28,12 +28,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     // Component.Explorer(),
-    Component.RecentNotes({ limit: 5 })
+    Component.RecentNotes({ limit: 5 }),
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
