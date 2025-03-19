@@ -48,7 +48,7 @@ jobs:
         run: npx quartz build --bundleInfo -d docs
 
   publish-tag:
-    if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/v4' }}
+    if: ${{ github.repository == 'jannyg/quartz' && github.ref == 'refs/heads/v4' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
