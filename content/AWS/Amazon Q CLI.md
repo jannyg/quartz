@@ -1,3 +1,18 @@
+---
+date: 2025-05-12
+lastmod: 2025-05-12
+tags:
+  - technology
+  - cloud
+  - coding
+  - aws
+aliases:
+title: Amazon Q CLI
+enableToc: false
+publish: true
+slug: index
+---
+
 Jeg har tidligere kun testet Amazon Q kort i AWS Console da det ble lansert første gangen, men da [Amazon Q Developer](https://aws.amazon.com/q/developer/) lanserte en ny og forbedret [CLI-agent](https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-q-developer-cli-agent-command-line/) for kommandolinjen, bestemte jeg meg for å gi det en ny sjanse.
 
 Den forbedrede CLI-agenten er en intelligent hjelper i terminalen som bruker AI for å gjøre utvikleropplevelsen med kommandolinjeverktøy både enklere og mer effektiv.
