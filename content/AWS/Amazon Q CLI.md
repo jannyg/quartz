@@ -13,7 +13,7 @@ publish: true
 slug: index
 ---
 
-Jeg har tidligere kun testet Amazon Q kort i AWS Console da det ble lansert første gangen, men da [Amazon Q Developer](https://aws.amazon.com/q/developer/) lanserte en ny og forbedret [CLI-agent](https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-q-developer-cli-agent-command-line/) for kommandolinjen, bestemte jeg meg for å gi det en ny sjanse.
+Jeg har tidligere kun testet Amazon Q kort i AWS-konsollet da det ble lansert første gangen, men da [Amazon Q Developer](https://aws.amazon.com/q/developer/) lanserte en ny og forbedret [CLI-agent](https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-q-developer-cli-agent-command-line/) for kommandolinjen, bestemte jeg meg for å gi det en ny sjanse.
 
 Den forbedrede CLI-agenten er en intelligent hjelper i terminalen som bruker AI for å gjøre utvikleropplevelsen med kommandolinjeverktøy både enklere og mer effektiv.
 
@@ -21,9 +21,9 @@ Med denne oppdateringen kan Amazon Q bruke informasjon fra utviklingsmiljøet di
 
 # Introduksjon
 
-I dette innlegget så tar jeg en nærmere titt på hvordan nye CLI-agenten fungerer i praksis. Jeg tester installasjon, oppsett og daglig bruk for å se om den kan være til nytte i hverdagen.
+I dette innlegget tar jeg en nærmere titt på hvordan nye CLI-agenten fungerer i praksis. Jeg tester installasjon, oppsett og daglig bruk for å se om den kan være til nytte i hverdagen.
 
-Amazon Q CLI Støtter macOS, Linux og Windows, og installasjonsveiledning finnes på [GitHub](https://github.com/aws/amazon-q-developer-cli)]. For min del, som hovedsaklig benytter så macOS, så kunne den enkelt installeres med `brew install amazon-q`
+Amazon Q CLI støtter macOS, Linux og Windows, og installasjonsveiledning finnes på [GitHub](https://github.com/aws/amazon-q-developer-cli). For min del, som hovedsaklig benytter macOS, så kunne den enkelt installeres med `brew install amazon-q`
 
 ## Autocomplete
 
@@ -34,6 +34,7 @@ En av de første tingene man legger merke til med Amazon Q er funksjonen _CLI-co
 Det fungerer ikke bare for AWS CLI, men også med alle kommandolinjeverktøy:
 
 ![[Pasted image 20250512095050.png]]
+
 Med en nyttig liste over alle parametere og korte beskrivelser for hver enkelt så kan man enkelt unngå skrivefeil eller behov for oppslag i dokumentasjonen (manpages).
 
 I bakgrunnen på siste bilde vises også eksempel på AI-genererte forslag direkte i shell.
@@ -53,7 +54,7 @@ Med _Chat_-funksjonen så kan man også be Q om å utføre oppgaver lokalt, elle
 Amazon Q benytter Amazon Bedrock og Claude 3.7 Sonnet som skal være godt egnet til å jobbe med kode. I dette eksempelet ber jeg Q lage en TypeScript-applikasjon som henter ut en liste over S3-bøtter og maskerer kontonummeret:
 
 ![[Pasted image 20250512101302.png]]
-Legg merke til at man blir bedt om om å bekrefte bruken av verktøy/kommando underveis i løpet av sesjonen, eller om man ønsker å "stole på" agenten. Her mener jeg det er fornuftig å beholde kontrollen selv.
+Legg merke til at man blir bedt om å bekrefte bruken av verktøy/kommando underveis i løpet av sesjonen, eller om man ønsker å "stole på" agenten. Her mener jeg det er fornuftig å beholde kontrollen selv.
 
 Den oppretter også `package.json` for avhengigheter og `tsconfig.json`:
 
