@@ -34,6 +34,6 @@ These are some of the most relevant topics I write about. Check out the topics y
 - #aws
   - Start with [[article1|article one]], or see some of my other notes about #aws
 - #english
-  - My articles in #English
+  - My articles in #english
 - #norsk
   - Mine artikler på #Norsk
