@@ -32,8 +32,8 @@ These are some of the most relevant topics I write about. Check out the topics y
 - #coding
   - Start with [[coding]], or [[coding2|coding to]]
 - #aws
-  - Start with [[article1|article one]], or see some of my other notes about #aws
+  - Start with [[AmazonQCLI_no|Amazon Q CLI]], or see some of my other notes about #aws
 - #english
   - My articles in #english
 - #norsk
-  - Mine artikler på #Norsk
+  - Mine artikler på #norsk
